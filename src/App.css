@@ -122,7 +122,8 @@
   color: #fe9f10;
   font-family: "Poppins", sans-serif;
 }
-.banner-media:after {
+
+/* .banner-media:after {
   content: "";
   position: absolute;
   border-radius: 100%;
@@ -131,8 +132,9 @@
   border: 180px solid #fe9f10;
   z-index: -1;
   transform: rotate(-45deg);
-  /* right: -233px; */
   top: -25vw;
   right: -20vw;
-}
+} */
+
+
 
