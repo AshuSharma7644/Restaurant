@@ -123,18 +123,51 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* .banner-media:after {
-  content: "";
-  position: absolute;
-  border-radius: 100%;
-  width: 60vw;
-  height: 60vw;
-  border: 180px solid #fe9f10;
-  z-index: -1;
-  transform: rotate(-45deg);
-  top: -25vw;
-  right: -20vw;
-} */
+
+.food-card {
+  border: 1px dashed rgba(255, 255, 255, .4);
+  border-radius: 10px;
+  width: 370px;
+  position: relative;
+ 
+}
+.panner-tikka {
+  border-bottom: 1px dashed rgba(255, 255, 255, .4);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+}
+
+.panner-tikka h5 {
+  color: white;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.panner-tikka {
+  border-bottom: 1px dashed rgba(255, 255, 255, .4);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+}
+.panner-tikka h5 {
+  width: 45%;
+}
+.rating {
+  width: 55%;
+  display: flex;
+  justify-content: end;
+}
+.rating li {
+  list-style: none;
+  color: #ebbc16;
+  margin-right: 7px;
+  font-size: 20px;
+  line-height: 24px;
+}
 
 
 

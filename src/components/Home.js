@@ -13,7 +13,28 @@ const Home = () => {
             <button className='banner-btn-one'>Book Link Table</button>
             <button className='banner-btn-two'>View More</button>
             </div>
+
             
+            <div className='food-card'>
+              <div className='panner-tikka'>
+                <h5>Panner Tikka</h5>
+                <ul className='rating'>
+                    <li><i className="fa fa-solid fa-star"></i></li>
+                    <li><i className="fa fa-solid fa-star"></i></li>
+                    <li><i className="fa fa-solid fa-star"></i></li>
+                    <li><i className="fa fa-solid fa-star"></i></li>
+                    <li className='m-0'><i className="fa fa-solid fa-star"></i></li>
+                    
+                    
+                </ul>
+              </div>
+              <div className='master-chief'></div>
+            </div>
+
+            
+
+
+
           </div>
           <div className='banner-media'>
             <img src='./images/banner-img.png'/>
