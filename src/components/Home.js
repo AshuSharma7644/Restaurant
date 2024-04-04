@@ -121,6 +121,60 @@ const Home = () => {
 
 
       {/* Second section end  */}
+
+
+
+
+{/* Third section start  */}
+
+
+
+{/* Third section end  */}
+
+
+
+
+{/* Fourth sectio start  */}
+
+<div className='fourth-home'>
+  <div className='inner-col'>
+<div className='special-content'>
+<h2>Today's Special</h2>
+</div>
+
+<div className='today_special'>
+
+
+<div className='inner-today-special'>
+  <div className='pepperroni'>
+    <div className='special-content'>
+      <div className='weight'>
+        <span>Pepperoni</span>
+        <span>756g</span>
+      </div>
+      <div className='price'>
+        <h6>Pepperoni</h6>
+        <h6>$15.00</h6>
+      </div>
+    </div>
+    <div className='special-media'>
+      <img src='./images/pepperoni.jpg' alt='Pepperoni'/>
+    </div>
+  </div>
+</div>
+
+
+<div className='inner-today-special'></div>
+<div className='inner-today-special'></div>
+<div className='inner-today-special'></div>
+</div>
+  </div>
+</div>
+
+{/* Fourth sectio end  */}
+
+
+
     </>
   )
 }

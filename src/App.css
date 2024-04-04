@@ -312,4 +312,48 @@
 }
 
 
+/* third css  */
 
+
+
+
+
+
+/* fourth css  */
+.fourth-home{
+  background-image: url(./components/images/home-fourth.png);
+  height: 500px;
+  margin-left: 5%;
+  margin-right: 5%;
+  z-index: 1;
+  position: relative;
+  border-radius: 30px;
+  background-attachment: fixed;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+    padding-bottom: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.inner-col:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(6px);
+  background-color: #151515b3;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.special-content h2 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  line-height: 72px;
+  font-weight: 700;
+  font-family: "Lobster Two", sans-serif;
+}
