@@ -146,6 +146,7 @@ const Home = () => {
 
 
 <div className='inner-today-special'>
+
   <div className='pepperroni'>
     <div className='special-content'>
       <div className='weight'>
@@ -161,12 +162,61 @@ const Home = () => {
       <img src='./images/pepperoni.jpg' alt='Pepperoni'/>
     </div>
   </div>
+
 </div>
 
 
-<div className='inner-today-special'></div>
-<div className='inner-today-special'></div>
-<div className='inner-today-special'></div>
+<div className='inner-today-special'>
+   <div className='pepperroni'>
+    <div className='special-content'>
+      <div className='weight'>
+        <span>Pepperoni</span>
+        <span>756g</span>
+      </div>
+      <div className='price'>
+        <h6>Pepperoni</h6>
+        <h6>$15.00</h6>
+      </div>
+    </div>
+    <div className='special-media'>
+      <img src='./images/pepperoni.jpg' alt='Pepperoni'/>
+    </div>
+  </div>
+</div>
+<div className='inner-today-special'>
+<div className='pepperroni'>
+    <div className='special-content'>
+      <div className='weight'>
+        <span>Pepperoni</span>
+        <span>756g</span>
+      </div>
+      <div className='price'>
+        <h6>Pepperoni</h6>
+        <h6>$15.00</h6>
+      </div>
+    </div>
+    <div className='special-media'>
+      <img src='./images/pepperoni.jpg' alt='Pepperoni'/>
+    </div>
+  </div>
+</div>
+<div className='inner-today-special'>
+<div className='pepperroni'>
+    <div className='special-content'>
+      <div className='weight'>
+        <span>Pepperoni</span>
+        <span>756g</span>
+      </div>
+      <div className='price'>
+        <h6>Pepperoni</h6>
+        <h6>$15.00</h6>
+      </div>
+    </div>
+    <div className='special-media'>
+      <img src='./images/pepperoni.jpg' alt='Pepperoni'/>
+    </div>
+  </div>
+</div>
 </div>
   </div>
 </div>
