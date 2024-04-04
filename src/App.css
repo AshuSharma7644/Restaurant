@@ -27,7 +27,8 @@
   background-image: url(./components/images/background-banner-home.jpg);
   background-size: cover;
   transform: translate3d(0px, 0px, 0px);
-  height: 800px;
+  /* height: 800px; */
+  padding: 50px 0px;
   margin-left: 60px;
     border-radius: 30px 0px 0px 30px;
 }
@@ -49,11 +50,13 @@
   display: flex;
   margin: auto;
   padding: 0% 3% 0% 15%;
+  align-items: center;
 }
+
 .banner-content {
   position: relative;
   z-index: 2;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   width: 50%;
 }
 .banner-media {
@@ -75,7 +78,7 @@
 }
 .banner-content h1 {
   font-family: "Lobster Two", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   font-size: 80px;
   line-height: 1.2;
@@ -167,6 +170,145 @@
   margin-right: 7px;
   font-size: 20px;
   line-height: 24px;
+}
+.master-chief {
+  width: 100%;
+  display: flex;
+  padding: 15px 25px;
+}
+.john-doe {
+  width: 70%;
+}
+.right_cart {
+  width: 30%;
+}
+.banner_image {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  min-width: 45px;
+  position: relative;
+  overflow: hidden;
+}
+.banner_image img {
+  width: 100%;
+  
+}
+.profile-info {
+  display: flex;
+  gap: 15px;
+}
+.banner_image_content h6 {
+  margin-bottom: 3px;
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.banner_image_content p {
+  color: #c4c4c4;
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.banner-content-second {
+  font-size: 15px !important;
+  margin-bottom: 0;
+  color: #dcdcdc !important;
+  line-height: 24px !important;
+  font-weight: 400 !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+.right_cart h5 {
+  color: #fe9f10;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.right_cart ul {
+  padding: 0px;
+}
+.right_cart li {
+  color: white;
+  list-style: none;
+  font-size: 25px;
+  line-height: 27px;
+}
+.right_cart i.fa.fa-solid.fa-cart-plus {
+  padding: 10px 12px;
+  background: #fe9f10;
+  border-radius: 4px;
+}
+
+
+
+
+/* Second HOme css  */
+.inner-col {
+  max-width: 1200px;
+  margin: auto;
+}
+.healthy-food {
+  display: flex;
+  gap: 24px;
+}
+.inner-border {
+  width: 32%;
+  border-right: 1px dashed rgba(102, 102, 102, .2);
+}
+.inner-health {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.health-icon {
+  color: #fe9f10;
+  width: 30%;
+  background-color: #fe9f101a;
+  width: 100px;
+  height: 100px;
+  min-width: 100px;
+  border-radius: 100%;
+  line-height: 100px;
+  text-align: center;
+  margin-right: 20px;
+}
+.health-content {
+  width: 70%;
+}
+.health-icon li {
+  list-style: none;
+  font-size: 40px;
+  text-align: center;
+}
+.last-border {
+  border-right: none;
+}
+.second-main {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+.health-content h5 {
+  color: #222222;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.health-content p {
+  color: #666;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.health-content h5:hover {
+  color: #d38004;
 }
 
 
