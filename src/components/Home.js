@@ -160,6 +160,7 @@ const Home = () => {
     </div>
     <div className='special-media'>
       <img src='./images/pepperoni.jpg' alt='Pepperoni'/>
+      <span className="image__icon">+</span>
     </div>
   </div>
 
@@ -180,6 +181,7 @@ const Home = () => {
     </div>
     <div className='special-media'>
       <img src='./images/pancake.jpg' alt='pancake'/>
+      
     </div>
   </div>
 </div>

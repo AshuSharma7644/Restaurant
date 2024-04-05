@@ -407,6 +407,39 @@
 }
 
 
+/* .special-media:after {
+  content: "+";
+  position: absolute;
+  display: block;
+  transform: translate(99px, -150px);
+  color: white;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 700;
+  padding: 0px 15px 5px 15px;
+  background: #fe9f10;
+  border-radius: 10px;
+} */
+
+.image__icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  transform: translate(-150px, 90px);
+  padding: 25px;
+  background: #fe9f10;
+  /* display: none; */
+  border-radius: 10px;
+  padding: 0px 40px 55px 20px;
+  font-size: 30px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+
+
+
+
 
 
 /* Footer css */
