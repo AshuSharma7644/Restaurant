@@ -137,7 +137,7 @@ const Home = () => {
 {/* Fourth sectio start  */}
 
 <div className='fourth-home'>
-  <div className='inner-col'>
+  <div className='inner-col inner-special'>
 <div className='special-content'>
 <h2>Today's Special</h2>
 </div>
@@ -155,7 +155,7 @@ const Home = () => {
       </div>
       <div className='price'>
         <h6>Pepperoni</h6>
-        <h6>$15.00</h6>
+        <h6 className='inner-price'>$15.00</h6>
       </div>
     </div>
     <div className='special-media'>
@@ -170,16 +170,16 @@ const Home = () => {
    <div className='pepperroni'>
     <div className='special-content'>
       <div className='weight'>
-        <span>Pepperoni</span>
+        <span>Pancake stack</span>
         <span>756g</span>
       </div>
       <div className='price'>
-        <h6>Pepperoni</h6>
-        <h6>$15.00</h6>
+        <h6>Pancake Stack</h6>
+        <h6 className='inner-price'>$18.00</h6>
       </div>
     </div>
     <div className='special-media'>
-      <img src='./images/pepperoni.jpg' alt='Pepperoni'/>
+      <img src='./images/pancake.jpg' alt='pancake'/>
     </div>
   </div>
 </div>
@@ -187,16 +187,16 @@ const Home = () => {
 <div className='pepperroni'>
     <div className='special-content'>
       <div className='weight'>
-        <span>Pepperoni</span>
+        <span>Halumini</span>
         <span>756g</span>
       </div>
       <div className='price'>
-        <h6>Pepperoni</h6>
-        <h6>$15.00</h6>
+        <h6>Halumini</h6>
+        <h6 className='inner-price'>$10.00</h6>
       </div>
     </div>
     <div className='special-media'>
-      <img src='./images/pepperoni.jpg' alt='Pepperoni'/>
+      <img src='./images/halumini.jpg' alt='halumini'/>
     </div>
   </div>
 </div>
@@ -204,16 +204,16 @@ const Home = () => {
 <div className='pepperroni'>
     <div className='special-content'>
       <div className='weight'>
-        <span>Pepperoni</span>
+        <span>Eggs</span>
         <span>756g</span>
       </div>
       <div className='price'>
-        <h6>Pepperoni</h6>
-        <h6>$15.00</h6>
+        <h6>Eggs</h6>
+        <h6>$12.00</h6>
       </div>
     </div>
     <div className='special-media'>
-      <img src='./images/pepperoni.jpg' alt='Pepperoni'/>
+      <img src='./images/eggs.jpg' alt='eggs'/>
     </div>
   </div>
 </div>
