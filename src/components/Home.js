@@ -181,6 +181,7 @@ const Home = () => {
     </div>
     <div className='special-media'>
       <img src='./images/pancake.jpg' alt='pancake'/>
+      <span className="image__icon">+</span>
       
     </div>
   </div>
@@ -199,6 +200,7 @@ const Home = () => {
     </div>
     <div className='special-media'>
       <img src='./images/halumini.jpg' alt='halumini'/>
+      <span className="image__icon">+</span>
     </div>
   </div>
 </div>
@@ -216,6 +218,7 @@ const Home = () => {
     </div>
     <div className='special-media'>
       <img src='./images/eggs.jpg' alt='eggs'/>
+      <span className="image__icon">+</span>
     </div>
   </div>
 </div>
@@ -223,10 +226,82 @@ const Home = () => {
   </div>
 </div>
 
-{/* Fourth sectio end  */}
+{/* Fourth section end  */}
+
+
+{/* last Section start  */}
+
+<div className='last-section'>
+<div className='inner-col'>
+<div className='news_update'>
+  <div className='news_today recent-update'>
+    <h2>Recent News & Updates</h2>
+    <div className='chill_out'>
+    <div className='chill_image'>
+    <img src='./images/chill.jpg'/>
+<div className='chill_date'>
+12 Feb 2023
+</div>
+    </div>
+    <div className='chill_content'>
+<h4>Chill Out with These Refreshing</h4>
+<div className='chill_meta'>
+<ul>
+  <li className='user'>
+  <i class="fa fa-solid fa-user"></i>
+    By RK Gupta
+  </li>
+  <li className='comment user'><i class="fa fa-solid fa-message"></i>10 Comments</li>
+</ul>
+</div>
+<div className='button'>
+<button className='read_more'>Read More</button>
+</div>
+    </div>
+
+    </div>
+    <div className='chill_out chill_in'>
+    <div className='chill_image'>
+    <img src='./images/chill.jpg'/>
+<div className='chill_date'>
+12 Feb 2023
+</div>
+    </div>
+    <div className='chill_content'>
+<h4>Taste Excitement: A Sneak Peek into the</h4>
+<div className='chill_meta'>
+<ul>
+  <li className='user'>
+  <i class="fa fa-solid fa-user"></i>
+    By KK Sharma
+  </li>
+  <li className='comment user'><i class="fa fa-solid fa-message"></i>24 Comments</li>
+</ul>
+</div>
+<div className='button'>
+<button className='read_more'>Read More</button>
+</div>
+    </div>
+
+    </div>
+  </div>
+  <div className='exploring'>
+  <video autoPlay loop>
+  <source src='./images/video_pizza.mp4' type='video/mp4'/>
+</video>
+
+    <div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
 
 
 
+{/* last Section end  */}
     </>
   )
 }
