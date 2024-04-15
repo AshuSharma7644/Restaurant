@@ -1,6 +1,5 @@
 *{
-  /* font-family: "poppins", sans-serif; */
-  /* font-family: "Lobster Two", sans-serif; */
+  font-family: "Poppins", sans-serif;
 }
 
 /* Header  */
@@ -355,6 +354,7 @@
   line-height: 72px;
   font-weight: 700;
   font-family: "Lobster Two", sans-serif;
+  margin-bottom: 40px;
 }
 
 .today_special {
@@ -416,11 +416,11 @@
   transform: translate(90px, -145px);
   background: #fe9f10;
   border-radius: 10px;
-  padding: 0px 40px 55px 20px;
+  padding: 5px 40px 52px 23px;
   font-size: 30px;
   line-height: 50px;
   color: white;
-  font-weight: 700;
+  font-weight: 500;
   display: none;
   /* transition: .6s ease all-in-out !important; */
   transition-duration: 500ms
@@ -506,7 +506,7 @@
 .exploring video {
   width: 100%;
   object-fit: cover;
-  height: 613px;
+  height: 635px;
 
 }
 
