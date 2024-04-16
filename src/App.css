@@ -373,6 +373,7 @@
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
+  position: relative;
 }
 .special-media img {
   width: 100%;
@@ -413,7 +414,6 @@
   width: 20px;
   height: 20px;
   position: absolute;
-  transform: translate(90px, -145px);
   background: #fe9f10;
   border-radius: 10px;
   padding: 5px 40px 52px 23px;
@@ -422,15 +422,15 @@
   color: white;
   font-weight: 500;
   display: none;
-  /* transition: .6s ease all-in-out !important; */
-  transition-duration: 500ms
+  top: 87px;
+    left: 88px;
+  
 }
 
 
 .special-media:hover .image__icon {
   display: block;
-  /* transition: .6s ease all-in-out !important; */
-  transition-duration: 500ms
+  
 }
 
 

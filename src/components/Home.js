@@ -159,8 +159,11 @@ const Home = () => {
       </div>
     </div>
     <div className='special-media'>
+    
       <img src='./images/pepperoni.jpg' alt='Pepperoni'/>
+      
       <span className="image__icon">+</span>
+      
     </div>
   </div>
 
@@ -219,6 +222,7 @@ const Home = () => {
     <div className='special-media'>
       <img src='./images/eggs.jpg' alt='eggs'/>
       <span className="image__icon">+</span>
+      
     </div>
   </div>
 </div>
