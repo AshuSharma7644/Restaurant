@@ -266,7 +266,7 @@ const Home = () => {
     </div>
     <div className='chill_out chill_in'>
     <div className='chill_image'>
-    <img src='./images/chill.jpg'/>
+    <img src='./images/sneak.jpg'/>
 <div className='chill_date'>
 12 Feb 2023
 </div>
@@ -293,10 +293,21 @@ const Home = () => {
   <video autoPlay loop>
   <source src='./images/video_pizza.mp4' type='video/mp4'/>
 </video>
+<div class="video_date">14 Feb 2023</div>
 
-    <div>
+<div className='video_content'>
+<h3>Exploring the World of Pizza</h3>
+<div className='inner_video_content'>
+<ul>
+  <li className='user'>
+  <i class="fa fa-solid fa-user"></i>
+    By KK Sharma
+  </li>
+  <li className='comment user'><i class="fa fa-solid fa-message"></i>24 Comments</li>
+</ul>
+</div>
 
-    </div>
+</div>
   </div>
 </div>
 </div>

@@ -23,7 +23,7 @@ const Header = () => {
 
 
 <nav className="navbar navbar-expand-lg navbar-light custom-nav">
-  <div className="container px-0">
+  <div className="container main-header px-0">
     {/* <NavLink className="navbar-brand" to="/"><h2><span className='logo-first'>Arvind</span> Sharma</h2></NavLink> */}
     <NavLink className="navbar-brand" to="/"><img src="images/logo_my.png" alt="Logo" /></NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
