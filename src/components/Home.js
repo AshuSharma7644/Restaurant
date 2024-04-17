@@ -162,7 +162,7 @@ const Home = () => {
     
       <img src='./images/pepperoni.jpg' alt='Pepperoni'/>
       
-      <span className="image__icon">+</span>
+      <p className="image__icon">+</p>
       
     </div>
   </div>
