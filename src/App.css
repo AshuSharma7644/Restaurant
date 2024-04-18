@@ -939,3 +939,13 @@
   padding-bottom: 30px;
 }
 }
+
+
+
+
+
+
+.about_main{
+  background-image: url(./components/images/about_bg.jpg);
+  height: 450px;
+}

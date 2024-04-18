@@ -1,8 +1,17 @@
 import React from 'react'
 
+
 const About = () => {
   return (
-    <div>About</div>
+    <>
+      {/* Hero Section  */}
+
+      <div className='about_main'>
+<div className='inner-col'>
+
+</div>
+      </div>
+    </>
   )
 }
 
