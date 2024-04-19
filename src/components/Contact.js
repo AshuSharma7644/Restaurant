@@ -1,7 +1,29 @@
-import React from 'react'
+import React from 'react';
+import { useState } from 'react';
+
+
+
 
 const Contact = () => {
+
+const [member, setMember]= useState(0)
+
+const btnMemberInc = (e)=>{
+e.preventDefault()
+setMember(member + 1)
+}
+const btnMemberDec = (e)=>{
+e.preventDefault()
+setMember(member - 1)
+if(member == 0){
+  setMember (0)
+}
+}
+
+
+
   return (
+
     <>
       {/* Hero Section start */}
 
@@ -115,14 +137,24 @@ const Contact = () => {
             <label htmlFor="number" className="label">
               Member:
             </label>
+            <div className='input_member'>
             <input
               type="text"
               id="number"
               name="number"
               required=""
               pattern="\d*"
-              placeholder="1 person"
+              placeholder="0 Person"
+              value={`${member} Person`}
+              
             />
+            <div className='member_btn'>
+            <button className='btn_one' onClick={btnMemberInc}>+</button>
+            <button className='btn_two' onClick={btnMemberDec}>-</button>
+            </div>
+            </div>
+            
+            
           </div>
         </div>
         <div className="textarea">
