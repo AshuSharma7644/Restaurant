@@ -1027,7 +1027,7 @@ h2,h1{
 
 #form{
 
-padding: 200px 0;
+  padding: 200px 0px 90px 0px;
 
 }
 
@@ -1043,6 +1043,7 @@ padding: 200px 0;
   margin-left: 5%;
   margin-right: 5%;
   border-radius: 30px;
+  padding-bottom: 100px;
 }
 .reservation__inner:hover p {
   color: white;
@@ -1107,9 +1108,12 @@ color: #fe9f10;
   align-items: center;
 }
 
-/* input::placeholder{
-  color: ;
-} */
+input::placeholder{
+  color: #222;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
 
 
 
@@ -1194,12 +1198,18 @@ width: 13%;
 margin: auto;
 text-align: center;
 background-color: #fe9f10;
-font-size: 14px;
-font-weight: 400;
+font-size: 16px;
+font-weight: 600;
 border: none;
 border-radius: 8px;
 padding: 12px 25px;
 color: #ffffff;
+}
+.myform .textarea textarea::placeholder {
+  color: #222;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
 }
 .submit--main {
 margin: auto;
