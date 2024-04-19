@@ -1,8 +1,14 @@
 *{
   font-family: "Poppins", sans-serif;
 }
+h3{
+  font-family: "Poppins", sans-serif;
+}
+h2,h1{
+  font-family: "Lobster Two", sans-serif;
+}
 
-/* Header  */
+/* Home Page Css Start  */
 
 .menu-a.active {
   color: #fe9f10 !important;
@@ -940,12 +946,276 @@
 }
 }
 
+/* Home Page Css End  */
 
 
 
 
 
-.about_main{
-  background-image: url(./components/images/about_bg.jpg);
-  height: 450px;
+
+
+
+
+
+
+
+
+
+
+
+/* About Page Css Start  */
+
+
+
+
+.contact_main{
+  background-image: url('./components/images/about_bg.jpg');
+  text-align: center;
+ 
 }
+
+
+.inner_contact:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(34, 34, 34, .9);
+}
+
+.inner_contact {
+  height: 450px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.inner_contact h1{
+  font-size: 70px;
+  line-height: 85px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  color: #ffffff;
+  z-index: 999;
+  }
+  .inner_contact a {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    border: 1px solid #fe9f10;
+    color: #ffffff;
+    padding: 13px 35px;
+    border-radius: 8px;
+    background-color: #fe9f10;
+    z-index: 999;
+    }
+    .inner_contact a i{
+      font-size: 13px;
+      
+      }
+
+
+
+
+
+#form{
+
+padding: 200px 0;
+
+}
+
+#form .reservation__inner h3 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  padding-top: 25px;
+}
+
+.inner_form {
+  background: #2222220a;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 30px;
+}
+.reservation__inner:hover p {
+  color: white;
+}
+
+.reservation__done{
+width: 100%;
+max-width: 1200px;
+margin: auto;
+border-radius: 20px;
+}
+.reservation__content{
+display: flex;
+width: 100%;
+margin: auto;
+column-gap: 30px;
+transform: translate(0px, -50px);
+}
+.reservation__inner{
+width:24%;
+text-align: center;
+border: 1px solid gray;
+padding: 60px 45px;
+background-color: #ffffff;
+background: rgba( 255, 255, 255, 0.7 );
+box-shadow: 0 15px 55px #22222226;
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+transition: .5s all ease-in-out;
+}
+.reservation__inner h2{
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+}
+.reservation__inner p{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+    color: #666;
+}
+#form .circle i {
+font-size: 50px;
+color: #fe9f10;
+}
+
+
+#form .circle {
+  position: absolute;
+  transform: translate(40px, -123px);
+  border-radius: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 15px 55px #22222226;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 110px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* input::placeholder{
+  color: ;
+} */
+
+
+
+.reservation__inner:hover {
+background: #fe9f10;
+color: #ffffff !important;
+transition: .5s all ease-in-out;
+}
+.reservation__inner:hover .circle i{
+animation: vibrate 0.5s linear infinite;
+}
+
+@keyframes vibrate {
+0% { transform: translate(0); }
+20% { transform: translate(-2px, 2px); }
+40% { transform: translate(-2px, -2px); }
+60% { transform: translate(2px, 2px); }
+80% { transform: translate(2px, -2px); }
+100% { transform: translate(0); }
+}
+.form__inner {
+padding: 50px 100px;
+}
+.form__inner h2{
+font-size: 60px;
+font-weight: 500;
+line-height: 60px;
+text-align: center;
+}
+.form-row {
+display: flex;
+margin-bottom: 10px;
+flex-wrap: wrap;
+column-gap: 10px;
+justify-content: space-between;
+row-gap: 50px;
+}
+.form-col {
+width: 49%;
+
+}
+
+.form-col:last-child {
+padding-right: 0;
+}
+
+.label {
+display: block;
+font-size: 14px;
+line-height: 22px;
+font-weight: 600;
+color: #fe9f10;
+}
+
+input, textarea {
+width: 100%;
+padding: 8px;
+box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+input[type="submit"] {
+margin-top: 10px;
+}
+.form-col input {
+background: transparent;
+border: none;
+border-bottom: 1px solid gray;
+}
+textarea#message {
+border: none;
+background: transparent;
+border-bottom: 1px solid gray;
+}
+input:focus-visible {
+outline: none;
+}
+textarea:focus-visible {
+outline: none;
+}
+input.submit {
+width: 13%;
+margin: auto;
+text-align: center;
+background-color: #fe9f10;
+font-size: 14px;
+font-weight: 400;
+border: none;
+border-radius: 8px;
+padding: 12px 25px;
+color: #ffffff;
+}
+.submit--main {
+margin: auto;
+text-align: center;
+}
+.form-col input:hover {
+border-bottom: 1px solid #000000 !important;
+}
+textarea#message:hover {
+border-bottom: 1px solid #000000 !important;
+}
+.textarea {
+padding-top: 40px;
+}
+.myform{
+padding: 45px 0px 0px 0px;
+}
+
+/* About Page Css End  */
