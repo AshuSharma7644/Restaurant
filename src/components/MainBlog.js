@@ -5,6 +5,10 @@ const MainBlog = () => {
     const provideData = useContext(createdata)
 
 
+const Blog_Content=()=>{
+  
+}
+
 
   return (
    <>
@@ -22,8 +26,7 @@ const MainBlog = () => {
   <div className="inner-body">
     <h5 className="card-title">{value.title}</h5>
     <p className="card-text">{value.desc}</p>
-    {/* <a href="#" className="inner_btn">{value.button}</a> */}
-    <button className='read_more'>{value.button}</button>
+    <button onClick={Blog_Content} className='read_more'>{value.button}</button>
   </div>
 </div>
 
