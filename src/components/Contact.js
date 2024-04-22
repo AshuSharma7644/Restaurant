@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -15,7 +16,7 @@ setMember(member + 1)
 const btnMemberDec = (e)=>{
 e.preventDefault()
 setMember(member - 1)
-if(member == 0){
+if(member === 0){
   setMember (0)
 }
 }
@@ -33,8 +34,15 @@ if(member == 0){
 <div className='contact_main'>
 <div>
 <div className='inner_col inner_contact'>
-<h1>Conatct Us</h1>
-<a href="#">Home <span><i className="fa fa-solid fa-chevron-right"></i></span> Contact us</a>
+<h1>Contact Us</h1>
+<div className='main_hero_heading'>
+  {/* <NavLink to="/"><span>Home<i className="fa fa-solid fa-chevron-right"></i></span></NavLink>
+  <NavLink to="/contact"><span>Contact Us</span></NavLink> */}
+  <NavLink to="/"><p>Home</p></NavLink>
+  <p><i className="fa fa-solid fa-chevron-right"></i></p>
+  <NavLink to="/contact"><p>Contact Us</p></NavLink>
+</div>
+{/* <NavLink to="/">Home <span><i className="fa fa-solid fa-chevron-right"></i></span></NavLink> Contact us */}
 </div>
 </div>
 
@@ -63,33 +71,27 @@ if(member == 0){
         <span className="circle">
           <i className="fa-solid fa-phone" />
         </span>
-        <h3>Location</h3>
+        <h3>Phone Number</h3>
         <p>
-          9854 Shelly st
-          <br />
-          melbourne
+        +91-8872371431
         </p>
       </div>
       <div className="reservation__inner">
         <span className="circle">
           <i className="fa-regular fa-envelope" />
         </span>
-        <h3>Location</h3>
+        <h3>Email Address</h3>
         <p>
-          9854 Shelly st
-          <br />
-          melbourne
+        ashusharma7644@gmail.com
         </p>
       </div>
-      <div className="reservation__inner">
+      <div className="reservation__inner margin_innner">
         <span className="circle">
           <i className="fa-regular fa-clock" />
         </span>
-        <h3>Location</h3>
+        <h3>Open & Closing</h3>
         <p>
-          9854 Shelly st
-          <br />
-          melbourne
+        Mon - Fri 09:00am to 07:00pm
         </p>
       </div>
     </div>

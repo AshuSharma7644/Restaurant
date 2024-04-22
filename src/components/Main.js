@@ -3,6 +3,7 @@ import Header from './Header'
 import Home from './Home'
 import About from './About'
 import Contact from './Contact'
+import Blog from './Blog'
 import Footer from './Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -18,6 +19,7 @@ const Main = () => {
                     <Route path='/' element={<Home />} />
                     <Route path='/about' element={<About />} />
                     <Route path='/contact' element={<Contact />} />
+                    <Route path='/blog' element={<Blog />} />
                 </Routes>
                 <Footer/>
             </BrowserRouter>

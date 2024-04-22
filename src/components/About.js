@@ -1,4 +1,5 @@
 import React from 'react'
+import UseDataContext from './UseDataContext'
 
 
 const About = () => {
@@ -11,6 +12,7 @@ const About = () => {
 
 </div>
       </div>
+    
     </>
   )
 }
