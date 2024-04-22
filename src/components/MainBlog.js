@@ -13,9 +13,9 @@ const Blog_Content=()=>{
   return (
    <>
 {
-    provideData.map((value)=>{
+    provideData.map((value , index)=>{
         return(
-            <div className="main_card">
+            <div className="main_card" key={index} id={index}>
             <div className='inner_date'>
 
             </div>
